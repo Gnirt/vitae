@@ -142,3 +142,34 @@ footer p {
     margin-bottom: 10px;
     font-size: 10pt;
 }
+
+.blue-twitter {
+  color: #55acee;
+}
+
+.green-blog {
+  color: #88c040;
+}
+
+.orange-rss {
+  color: #ff6600;
+}
+
+#rotate {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.over {
+    transform: rotate( -180deg );
+    transition: transform 150ms ease;
+}
+
+.out {
+    transform: rotate( -360deg );
+    transition: transform 150ms ease;
+}
